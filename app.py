@@ -198,11 +198,10 @@ st.sidebar.write("")
 st.sidebar.write("BY: Sanchit Singla")
 
 st.sidebar.write("")
-st.sidebar.write("You can report Bug at Email")
+st.sidebar.write()
 email_address = "sanchitsingla1403@gmail.com"
-st.sidebar.markdown("""<a href="mailto:{email_address}"><img src="data:image/png;base64,{}" width="40">
-        </a>""".format(base64.b64encode(open("gmail.png", "rb").read()).decode()
-        ), unsafe_allow_html=True)
+st.sidebar.markdown("""<p>You can report Bug at Email</p><a href="mailto:{}"><img src="data:image/png;base64,{}" width="40"><p>sanchitsingla1403@gmail.com</p>
+        </a>""".format(email_address, base64.b64encode(open("gmail.png", "rb").read()).decode()), unsafe_allow_html=True)
 
 
 
