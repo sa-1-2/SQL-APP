@@ -200,7 +200,6 @@ st.sidebar.write("BY: Sanchit Singla")
 st.sidebar.write("")
 st.sidebar.write("You can report Bug at Email")
 email_address = "sanchitsingla1403@gmail.com"
-email_link = f''
 st.sidebar.markdown("""<a href="mailto:{email_address}"><img src="data:image/png;base64,{}" width="40">
         </a>""".format(base64.b64encode(open("gmail.png", "rb").read()).decode()
         ), unsafe_allow_html=True)
