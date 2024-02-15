@@ -193,7 +193,8 @@ with github:
         </a>""".format(base64.b64encode(open("github.PNG", "rb").read()).decode()
         ),
         unsafe_allow_html=True)
-    
+
+st.sidebar.write("BY: Sanchit Singla")
 
 
 
