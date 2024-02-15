@@ -197,6 +197,12 @@ with github:
 st.sidebar.write("")
 st.sidebar.write("BY: Sanchit Singla")
 
+st.sidebar.write("")
+st.sidebar.write("You can report Bug at Email: sanchitsingla1403@gmail.com")
+
+
+
+
 
 
 
