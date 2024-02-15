@@ -198,7 +198,11 @@ st.sidebar.write("")
 st.sidebar.write("BY: Sanchit Singla")
 
 st.sidebar.write("")
-st.sidebar.write("You can report Bug at Email: sanchitsingla1403@gmail.com")
+st.sidebar.write("You can report Bug at Email")
+email_address = "your_email@example.com"
+email_link = f'<a href="mailto:{email_address}">{email_address}</a>'
+st.markdown(email_link, unsafe_allow_html=True)
+
 
 
 
