@@ -194,6 +194,7 @@ with github:
         ),
         unsafe_allow_html=True)
 
+st.sidebar.write("")
 st.sidebar.write("BY: Sanchit Singla")
 
 
