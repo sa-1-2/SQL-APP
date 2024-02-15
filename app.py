@@ -12,7 +12,7 @@ import os
 import sqlite3
 
 import google.generativeai as genai
-#GOOGLE_API_KEY = "AIzaSyAO0YIheYwDRO4R_62bS-gEW7j5aAX_tjU"
+
 genai.configure(api_key = os.getenv('GOOGLE_API_KEY'))
 
 
