@@ -182,7 +182,7 @@ with linkedin:
     st.markdown(
         """<a href="https://www.linkedin.com/in/sanchit-singla/">
         <img src="data:image/png;base64,{}" width="40">
-        </a>""".format(base64.b64encode(open("LinkedIn.png", "rb").read()).decode()
+        </a>""".format(base64.b64encode(open("linkedin.png", "rb").read()).decode()
         ),
         unsafe_allow_html=True)
 
@@ -190,7 +190,7 @@ with github:
     st.markdown(
         """<a href="https://github.com/sa-1-2/">
         <img src="data:image/png;base64,{}" width="40">
-        </a>""".format(base64.b64encode(open("github.png", "rb").read()).decode()
+        </a>""".format(base64.b64encode(open("github.PNG", "rb").read()).decode()
         ),
         unsafe_allow_html=True)
     
