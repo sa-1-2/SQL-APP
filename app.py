@@ -61,7 +61,7 @@ def read_sql_query(sql, db):
 
 st.set_page_config(
     page_title="SQL code solution",
-    page_icon="images\SQL.png",
+    page_icon="images/SQL.png",
     layout='centered',
     initial_sidebar_state="expanded" )
 
@@ -106,7 +106,7 @@ if dataset == 'Yes, I have':
 
     if uploaded_file == None:
         st.markdown("""<img src="data:image/png;base64,{}" width="15">
-                    Waiting to upload file""".format(base64.b64encode(open("images\waiting.png", "rb").read()).decode()),unsafe_allow_html=True)
+                    Waiting to upload file""".format(base64.b64encode(open("images/waiting.png", "rb").read()).decode()),unsafe_allow_html=True)
         st.write("")
     elif uploaded_file is not None:
         if uploaded_file.name.endswith('.db'):
@@ -182,7 +182,7 @@ with linkedin:
     st.markdown(
         """<a href="https://www.linkedin.com/in/sanchit-singla/">
         <img src="data:image/png;base64,{}" width="40">
-        </a>""".format(base64.b64encode(open("images\linkedin.png", "rb").read()).decode()
+        </a>""".format(base64.b64encode(open("images/linkedin.png", "rb").read()).decode()
         ),
         unsafe_allow_html=True)
 
@@ -190,7 +190,7 @@ with github:
     st.markdown(
         """<a href="https://github.com/sa-1-2/">
         <img src="data:image/png;base64,{}" width="40">
-        </a>""".format(base64.b64encode(open("images\github.PNG", "rb").read()).decode()
+        </a>""".format(base64.b64encode(open("images/github.PNG", "rb").read()).decode()
         ),
         unsafe_allow_html=True)
 
@@ -198,7 +198,7 @@ with discord:
     st.markdown(
         """<a href="https://discordapp.com/users/753842907966079046">
         <img src="data:image/png;base64,{}" width="40">
-        </a>""".format(base64.b64encode(open("images\discord.png", "rb").read()).decode()
+        </a>""".format(base64.b64encode(open("images/discord.png", "rb").read()).decode()
         ),
         unsafe_allow_html=True)
    
@@ -209,7 +209,7 @@ st.sidebar.write("")
 st.sidebar.write()
 email_address = "sanchitsingla1403@gmail.com"
 st.sidebar.markdown("""<p>You can report Bug at Email</p><a href="mailto:{}"><img src="data:image/png;base64,{}" width="40"><p>sanchitsingla1403@gmail.com</p>
-        </a>""".format(email_address, base64.b64encode(open("images\gmail.png", "rb").read()).decode()), unsafe_allow_html=True)
+        </a>""".format(email_address, base64.b64encode(open("images/gmail.png", "rb").read()).decode()), unsafe_allow_html=True)
 
 
 
